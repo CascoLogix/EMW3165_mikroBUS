@@ -3,7 +3,7 @@
   (general
     (links 20)
     (no_connects 0)
-    (area 110.743999 90.049099 136.652001 126.4666)
+    (area 110.922999 97.714999 136.473001 126.440001)
     (thickness 1.6)
     (drawings 56)
     (tracks 52)
@@ -14,7 +14,10 @@
 
   (page A4)
   (title_block
-    (date "lun. 30 mars 2015")
+    (title "EMW3165 mikroBUS")
+    (date 2016-12-10)
+    (rev 0.1)
+    (company "Casco Logix, LLC")
   )
 
   (layers
@@ -69,14 +72,14 @@
     (grid_origin 110.998 126.365)
     (visible_elements 7FFEFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x000fc_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
-      (useauxorigin false)
+      (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
       (hpglpendiameter 15)
@@ -84,7 +87,7 @@
       (psnegative false)
       (psa4output false)
       (plotreference true)
-      (plotvalue true)
+      (plotvalue false)
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
@@ -92,7 +95,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Z:/Engineering/Projects/mikroBUS_Modules/EMW3165_mikroBUS/Hardware/EDA/Gerbers/))
   )
 
   (net 0 "")
